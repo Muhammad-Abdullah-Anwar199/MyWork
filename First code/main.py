@@ -10,6 +10,6 @@ main()'''
 def main():
     i = 1
     while i <= 3:
-        print("meow 1")
+        print("meow")
         i = i + 1
 main() 
