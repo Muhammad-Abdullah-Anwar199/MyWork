@@ -7,9 +7,15 @@
             print("Who?")
 main()'''
 
-def main():
+'''def main():
     i = 1
     while i <= 3:
         print("meow")
         i = i + 1
-main() 
+main()''' 
+
+
+def main():
+    for _ in range(3):
+        print("Meow" , _)
+main()
