@@ -17,3 +17,28 @@ for x in iter(get_x, 1):
 result = lambda a , b : a+b
 
 print(result(5,5))
+
+while True:
+    try:
+        x = int(input("What's x? "))
+    except ValueError:
+        print("x is not an integer!")
+    else:
+        break
+print(f"x is {x}")
+
+# important fact about the "Scope" 
+# in python only classes and modules or we can say functions have create the scope
+# the loops like while loop and other don't have seprate scope
+
+try:
+    l = 0
+    l = int(input("What's x? "))
+except ValueError:
+    print("x is not an integer!")
+print(f"l is {l}")
+
+# now in this case there is no scope issue 
+#if the l have the the int(input()) when the input function fails it dos'nt assign to l so when we
+# trying to print
+#this gives us an error
