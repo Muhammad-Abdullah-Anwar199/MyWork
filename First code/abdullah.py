@@ -13,3 +13,7 @@ def get_x():
 
 for x in iter(get_x, 1):
     print("You Typed", x)
+
+result = lambda a , b : a+b
+
+print(result(5,5))
