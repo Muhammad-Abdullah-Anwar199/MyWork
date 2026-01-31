@@ -79,4 +79,10 @@ def print_square(size):
             print("#" , end="")
         print() #this is for simple line switch
 
-main()
+
+
+def pattern(size):
+    for _ in range(size):
+        print("#" * size)
+pattern(3)
+
