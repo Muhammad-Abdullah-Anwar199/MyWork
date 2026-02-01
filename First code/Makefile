@@ -1,2 +1,2 @@
 run:
-	python3 abdullah.py
+	python3 main.py

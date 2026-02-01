@@ -1,3 +1,5 @@
+from pkgutil import resolve_name
+
 def main():
     name = input("What's your name? ")
     match name:
@@ -5,19 +7,19 @@ def main():
             print("199")
         case _:
             print("Who?")
-main()
+
 
 def main():
-    i = 1
-    while i <= 3:
+    iop= 1
+    while iop <= 3:
         print("meow")
-        i = i + 1
-main()
+        iop = iop + 1
 
 def main():
     for _ in range(3):
         print("Meow" , _)
-main()
+
+
 n = int(input("What's n?"))
 print("Meow\n" * n , end="")
 
@@ -36,7 +38,6 @@ def main():
 }
     for i in family:
         print(i , family[i] , sep="->")
-main()
 
 
 students = [
@@ -84,5 +85,17 @@ def print_square(size):
 def pattern(size):
     for _ in range(size):
         print("#" * size)
-pattern(3)
 
+
+print()
+def pyramids(n):
+    #No of rows
+    for i in range(1, n+1):
+        #spaces
+        for j in range(n-i):
+            print(" " , end="")
+        #stars
+        for k in range(2*i-1):
+            print("*" , end="")
+        print()
+pyramids(5)
