@@ -18,7 +18,7 @@ result = lambda a , b : a+b'''
 
 #print(result(5,5))
 
-
+'''
 def main():
     print(get_int())
 
@@ -31,7 +31,7 @@ def get_int():
             pass
 
 main()
-
+'''
 # important fact about the "Scope" 
 # in python only classes and modules or we can say functions have create the scope
 # the loops like while loop and other don't have seprate scope
@@ -48,7 +48,7 @@ print(f"l is {l}")'''
 # trying to print
 #this gives us an error
 
-def slove():
+'''def slove():
     a = "3"
     a *=2 # * do string repition so 33
     z = float(a) + 5.00
@@ -62,4 +62,5 @@ def new():
         print(x)
         n = x + n
     print(n)
-
+'''
+try:

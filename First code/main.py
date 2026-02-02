@@ -1,4 +1,4 @@
-from pkgutil import resolve_name
+'''from pkgutil import resolve_name
 
 def main():
     name = input("What's your name? ")
@@ -87,7 +87,7 @@ def pattern(size):
         print("#" * size)
 
 
-print()
+
 def pyramids(n):
     #No of rows
     for i in range(1, n+1):
@@ -98,4 +98,22 @@ def pyramids(n):
         for k in range(2*i-1):
             print("*" , end="")
         print()
-pyramids(5)
+'''
+
+'''def hollowSquare(n):
+    #for rows
+    for i in range(1,n+1):
+    #for stars
+        for j in range(1,n+1):
+            if i == 1 or i == n or j == 1 or j == n:
+                print("#" , end="")
+            else:
+                print(" ",end="")
+        print()
+hollowSquare(7)'''
+
+try:
+    int("cat")
+except ValueError:
+    print("Logging error...")
+    raise
