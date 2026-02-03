@@ -44,3 +44,9 @@ main()
 text = "hello"
 print("he" in text)  # True
 print("hi" in text)  # False
+
+list = [1,2,4,5,2,4,5,3,4,53,453]
+print(7 in list)
+#mini excercise
+x = print("Hello")
+print(x)
