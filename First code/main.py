@@ -112,8 +112,17 @@ def pyramids(n):
         print()
 hollowSquare(7)'''
 
-try:
+'''try:
     int("cat")
 except ValueError:
     print("Logging error...")
     raise
+'''
+
+def factorial(n):
+    sum  = 1
+    for i in range(1,n+1):
+        sum = sum * i
+    return sum
+
+print(factorial(4))

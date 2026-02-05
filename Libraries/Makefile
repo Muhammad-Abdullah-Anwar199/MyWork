@@ -1,2 +1,2 @@
 run:
-	python3 itunes.py weezer
+	python3 say.py Abdullah
