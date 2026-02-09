@@ -1,2 +1,2 @@
 run:
-	python3 say.py Abdullah
+	python3 ran.py
