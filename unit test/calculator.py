@@ -1,13 +1,8 @@
 def main():
-    number = int(input("Enter a number: "))
+    number = input("Enter a number: ")
     print(square(number))
-    nu = int(input("Enter a number: "))
-    print(add(nu))
 def square(nu):
-    return nu + nu
-
-def add(n):
-    return n - n
+    return nu * nu
 
 if __name__ == "__main__":
     main()
